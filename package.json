@@ -1,9 +1,12 @@
 {
-  "name": "dotenv-expand",
+  "name": "@moselhy/dotenv-expand",
   "version": "8.0.1",
   "description": "Expand environment variables using dotenv",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "exports": {
     ".": {
       "require": "./lib/main.js",
@@ -22,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/motdotla/dotenv-expand"
+    "url": "https://github.com/moselhy/dotenv-expand"
   },
   "author": "motdotla",
   "keywords": [
